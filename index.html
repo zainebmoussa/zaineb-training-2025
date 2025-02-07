@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salle de Sport - E-commerce</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo de la salle de sport">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#produits">Produits</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="panier">
+            <a href="#panier">Panier</a>
+        </div>
+    </header>
+
+    <section id="accueil">
+        <h1>Bienvenue dans notre salle de sport</h1>
+        <p>Découvrez nos équipements et services de qualité pour atteindre vos objectifs fitness.</p>
+        <a href="#produits" class="btn">Voir nos produits</a>
+    </section>
+
+    <section id="produits">
+        <h2>Nos Produits</h2>
+        <div class="produit">
+            <img src="produit1.jpg" alt="Produit 1">
+            <h3>Haltères</h3>
+            <p>Haltères de qualité professionnelle, disponibles en plusieurs poids.</p>
+            <p class="prix">€29.99</p>
+            <button>Ajouter au panier</button>
+        </div>
+        <div class="produit">
+            <img src="produit2.jpg" alt="Produit 2">
+            <h3>Tapis de Yoga</h3>
+            <p>Tapis de yoga antidérapant et confortable.</p>
+            <p class="prix">€19.99</p>
+            <button>Ajouter au panier</button>
+        </div>
+        <div class="produit">
+            <img src="produit3.jpg" alt="Produit 3">
+            <h3>Corde à Sauter</h3>
+            <p>Corde à sauter réglable pour un entraînement cardio efficace.</p>
+            <p class="prix">€9.99</p>
+            <button>Ajouter au panier</button>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Nos Services</h2>
+        <div class="service">
+            <h3>Entraînement Personnel</h3>
+            <p>Bénéficiez d'un programme d'entraînement personnalisé avec nos coachs certifiés.</p>
+        </div>
+        <div class="service">
+            <h3>Cours Collectifs</h3>
+            <p>Participez à nos cours collectifs de yoga, pilates, et bien plus encore.</p>
+        </div>
+        <div class="service">
+            <h3>Nutrition</h3>
+            <p>Obtenez des conseils nutritionnels pour optimiser vos performances.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form action="#" method="post">
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Salle de Sport. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
